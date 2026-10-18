@@ -1,0 +1,41 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>宝葫芦 · 三版页面原型</title><style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f6f7f9;color:#1f2329;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 48px}
+.top{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.top h1{margin:0;font-size:22px}.top .sub{color:#646a73;font-size:14px}
+.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:10px;background:#fff1e8;color:#d4551b;margin-left:6px}
+.tag.green{background:#e8f7ee;color:#1f8a4c}.tag.gray{background:#eff0f1;color:#646a73}
+.step{font-size:13px;color:#8f959e;margin:24px 0 10px;letter-spacing:1px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:#fff;border:2px solid #e5e6eb;border-radius:12px;padding:18px;cursor:pointer;transition:.15s}
+.card:hover{border-color:#f2a77c}.card.on{border-color:#e8590c;box-shadow:0 4px 14px rgba(232,89,12,.12)}
+.card h3{margin:0 0 10px;font-size:17px}.row{font-size:14px;margin:6px 0}.row b{color:#646a73;font-weight:500;display:block;font-size:12px}
+.btn{display:inline-block;margin-top:10px;padding:6px 14px;border-radius:8px;border:1px solid #e8590c;color:#e8590c;font-size:14px;background:#fff;cursor:pointer}
+.card.on .btn{background:#e8590c;color:#fff}
+.panel{background:#fff;border-radius:12px;padding:24px;border:1px solid #e5e6eb}
+.headline{font-size:24px;font-weight:700;margin:0 0 6px}.sentence{color:#4e5969;margin:0 0 18px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:720px){.grid2{grid-template-columns:1fr}}
+.box h4{margin:0 0 8px;font-size:15px}.box ol,.box ul{margin:0;padding-left:20px}.box li{margin:6px 0;font-size:14px}
+details{margin-top:6px;font-size:13px;color:#646a73}summary{cursor:pointer;color:#8f959e}
+.actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.primary{padding:8px 18px;border-radius:8px;background:#e8590c;color:#fff;border:0;font-size:14px;cursor:pointer}
+.ghost{padding:8px 18px;border-radius:8px;background:#fff;color:#4e5969;border:1px solid #d0d3d6;font-size:14px;cursor:pointer}
+.note{margin-top:28px;font-size:12px;color:#8f959e}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{padding:6px 14px;border-radius:18px;border:1px solid #d0d3d6;background:#fff;cursor:pointer;font-size:14px}
+.chip.on{border-color:#e8590c;color:#e8590c;background:#fff6f1}
+.todo{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid #f0f1f2}.todo:last-child{border-bottom:0}
+.todo input{width:18px;height:18px;margin-top:3px;accent-color:#e8590c}.todo .t{font-weight:600}.todo .h{font-size:14px;color:#4e5969}.todo .d{font-size:12px;color:#1f8a4c}
+.todo.done .t,.todo.done .h{color:#b0b4ba;text-decoration:line-through}
+.gb{border:1px solid #e5e6eb;border-radius:10px;padding:16px}.gb .p{font-size:22px;font-weight:700;color:#e8590c}.gb .o{font-size:13px;color:#8f959e;text-decoration:line-through;margin-left:6px}
+.warn{color:#c9302c;font-size:12px}
+.toast{position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#1f2329;color:#fff;padding:8px 16px;border-radius:8px;font-size:14px;display:none}
+ .links a{display:block;background:#fff;border:1px solid #e5e6eb;border-radius:12px;padding:18px;margin:12px 0;color:#1f2329;text-decoration:none}.links a:hover{border-color:#e8590c}.links b{font-size:17px}</style></head>
+<body><div class="wrap"><div class="top"><div><h1>宝葫芦 · 三版页面原型</h1><div class="sub">同一家店、同一份资料，三种呈现方式。看真人怎么用，再定用哪版。</div></div></div>
+<div class="links">
+<a href="a.html"><b>A 一页版</b><div class="sub">3 个方向选一个 → 一页方案：定位一句话、为什么 3 点、先做的 3 件事、团购和抖音建议</div></a>
+<a><b>B 现在的 8 页版</b><div class="sub">在现有系统的「定位优势」页直接看</div></a>
+<a href="c.html"><b>C 动作版</b><div class="sub">一句结论 + 本周要做的 5 件事 + 团购草案</div></a>
+</div>
+<div class="note">试用时每次记下：老板在哪一页停、问了什么、选了哪个方向、运营用了哪几块跳过哪几块、下次带哪一版。</div>
+</div></body></html>
